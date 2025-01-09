@@ -4,18 +4,12 @@ layout: homepage
 
 ## About Me
 
-<!-- I'm a <a href="https://med.nyu.edu/departments-institutes/population-health/divisions-sections-centers/biostatistics/" target="_blank"> Statistics</a> Ph.D. candidate at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>, -->
-I work as a Research Data Scientist at Google, where our team uses statistical methods to analyze complex strategic questions, optimize decision-making, and solve key challenges across the company. Before joining Google, I completed my Ph.D. at at <a href="https://www.nyu.edu/" target="_blank"> New York University</a>,
-<!-- 's <a href="https://med.nyu.edu/" target="_blank"> Grossman School of Medicine</a> -->
-<!-- , specifically within the <a href="https://med.nyu.edu/research/sackler-institute-graduate-biomedical-sciences/" target="_blank"> Vilcek institute of Biomedical Sciences</a> and the Department of <a href="https://med.nyu.edu/departments-institutes/population-health/" target="_blank"> Population Health</a>. Under the mentorship of Prof.  -->
-worked under the mentorship of Prof.<a href="https://scholar.google.com/citations?user=QtyFQVYAAAAJ&hl=en" target="_blank"> Thaddeus Tarpey</a>. My research involves developing statistical models that cater to high-dimensional complex data, such as functional and imaging data. This endeavor confronts two main challenges: first, defining a metric with self-consistent properties to cluster populations into subgroups based on rich and complex tensor data; second, accurately identifying subgroups that closely align with target labels of interest by developing methods like semi-supervised clustering algorithms.
-<!-- In the summer of 2022, I had the opportunity to work as a Research Data Scientist Intern at <a href="https://about.google" target="_blank"> Google</a>, where I applied my statistical skills to real-world problems.  -->
-Prior to joining the Ph.D. program, I completed my master's degree in Biostatistics and Data Science from <a href="https://www.cornell.edu" target = "_blank"> Cornell University</a> advised by Prof. <a href= "https://www.idiaz.xyz" target = "_blank"> Iván Díaz</a>.
-<!-- and my bachelor's degree in International Finance from <a href="https://www.cueb.edu.cn" target = "_blank"> Capital University of Economics and Business</a>.  -->
-<!-- 
-I am an alumnus of the <a href="https://opencasestudies.github.io/" target="_blank"> Open Case Study Project</a> at <a href="https://www.jhsph.edu/" target="_blank"> the Bloomberg School of Public Health </a> of <a href="https://www.jhu.edu/" target="_blank"> the Johns Hopkins University</a>. -->
+I am currently a research associate at <a href="https://www.mmlab-ntu.com/" target="_blank">MMLab@NTU</a>, Nanyang Technological University, Singapore, advised by Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
 
-Outside of academia, I began my journey as a professional swimmer at the age of 5 and went on to achieve several regional and national championships. I'm also passionate about Chinese calligraphy, and my artwork has been exhibited in top galleries and museums including the <a href="http://www.namoc.org/" target="_blank"> National Art Museum of China (Beijing)</a>. In addition, I am also interested in diving, oil painting, and aeromodelling.
+Before that, I earned my MPhil degree in 2024 under the supervision of Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=SReb2csAAAAJ" target="_blank">Lin Wang</a> at The Hong Kong University of Science and Technology, Guangzhou campus. I completed my bachelor's degree at the Harbin Institute of Technology (Shenzhen) in 2022.
+
+
+{% include_relative _includes/projects.md %}
 
 
 ## Research Interests
@@ -25,13 +19,18 @@ Outside of academia, I began my journey as a professional swimmer at the age of 
 - **Functional Data Analysis:** functional regression, and clustering methods
 
 
-## Awards
-- **[May. 2023]** <a href="https://gsas.nyu.edu/admissions/financial-aid/graduate-school-fellowships-and-assistantships.html" target="_blank">*MacCracken Awards*</a> for outstanding research and activities
+## Internships and Working Experiences
+- **[Feb. 2022 ‑ Aug. 2022]**, Shenzhen, APPLE
+  - MDE Intern of iPhone Housing Team @ IPEG, FOXCONN (iPhone 14/14pro project)
+- **[Jan. 2024 ‑ May. 2024]**, Hangzhou, VIVO
+  - Working with Dr. <a href="https://fqnchina.github.io" target="_blank">Qingnan Fan</a>
+- **[Jun. 2024 ‑ Oct. 2024]**, Shenzhen, OPPO
+  - Working with Dr. <a href="https://scholar.google.com.sg/citations?user=REWxLZsAAAAJ&hl" target="_blank">Jie Liang</a> and Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a>
 
 
 <!-- {% include_relative _includes/publications.md %} -->
 
-{% include_relative _includes/projects.md %}
+
 
 {% include_relative _includes/talks.md %}
 
