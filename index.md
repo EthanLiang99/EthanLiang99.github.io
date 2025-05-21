@@ -17,12 +17,11 @@ My research centers on event-based vision and computational imaging, with a focu
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">ECCV 2024</div>
-      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="30%">
+      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="60%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
-    </div>
-</div>
+
 
 [UniINR: Unifying Spatial-Temporal INR for RS Video Correction, Deblur, and Interpolation with an Event Camera](https://arxiv.org/pdf/2305.15078) 
 
@@ -30,10 +29,16 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
 💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
 
+</div>
+</div>
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024 Oral</div><img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="30%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">CVPR 2024 Oral</div>
+      <img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="60%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach ](https://arxiv.org/pdf/2404.00834) 
 
