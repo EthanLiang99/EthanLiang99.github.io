@@ -14,25 +14,13 @@ My research centers on event-based vision and computational imaging, with a focu
 
 ## 🗒 Publications 
 
-
-<div class="publication-item">
-  <div class="column-left">
-    <div class="image-badge-container">
-      <div class="badge">ECCV 2024</div> <img src="assets/img/0-eccv24-uniinr.png" alt="Main visual with badge">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">ECCV 2024</div>
+      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="100%">
     </div>
-    </div>
-
-  <div class="column-right">
-    <h3>UniINR: Unifying Spatial-Temporal INR for RS Video Correction, Deblur, and Interpolation with an Event Camera </h3>
-    <p class="authors">Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong</p>
-    <p class="keywords"><strong>Key Words:</strong> Rolling Shutter Correction, Deblurring, Frame Interpolation</p>
-    <p class="links">
-      <a href="#https://arxiv.org/pdf/2305.15078">📄 Paper</a> |
-      <a href="#https://github.com/yunfanLu/UniINR">💻 Code</a> |
-      <a href="#https://youtu.be/Zfx9jBkSZmg">📺Demo Video 74</a> |
-    </p>
   </div>
-</div>
+  <div class='paper-box-text' markdown="1">
 
 [UniINR: Unifying Spatial-Temporal INR for RS Video Correction, Deblur, and Interpolation with an Event Camera](https://arxiv.org/pdf/2305.15078) 
 
