@@ -37,7 +37,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">CVPR 2024 Oral</div>
-      <img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="60%">
+      <img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -55,7 +55,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/authface.png' alt="sym" width="60%">
+      <img src='assets/img/authface.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -72,7 +72,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/11-egrsvfi.png' alt="sym" width="60%">
+      <img src='assets/img/11-egrsvfi.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -91,7 +91,7 @@ Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/14-evlight++.png' alt="sym" width="60%">
+      <img src='assets/img/14-evlight++.png' alt="sym" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
