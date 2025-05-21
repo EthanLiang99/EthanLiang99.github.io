@@ -58,7 +58,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
   </div>
   <div class='paper-box-text' markdown="1">
 
-[AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior](https://arxiv.org/pdf/2404.00834) 
+[AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior](https://arxiv.org/pdf/2410.09864) 
 
 **Guoqiang Liang**, Qingnan Fan, Bingtao Fu, Jinwei Chen, Hong Gu, Lin Wang
 
