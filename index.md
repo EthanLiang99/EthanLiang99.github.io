@@ -17,7 +17,7 @@ My research centers on event-based vision and computational imaging, with a focu
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">ECCV 2024</div>
-      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="100%">
+      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -27,17 +27,15 @@ My research centers on event-based vision and computational imaging, with a focu
 Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
 💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
-
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-
 </div>
 </div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">CVPR 2024 Oral</div>
-      <img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="100%">
+      <img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -55,7 +53,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/authface.png' alt="sym" width="100%">
+      <img src='assets/img/authface.png' alt="sym" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -72,7 +70,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/11-egrsvfi.png' alt="sym" width="100%">
+      <img src='assets/img/11-egrsvfi.png' alt="sym" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -91,7 +89,7 @@ Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/14-evlight++.png' alt="sym" width="100%">
+      <img src='assets/img/14-evlight++.png' alt="sym" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
