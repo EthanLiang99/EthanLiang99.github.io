@@ -22,12 +22,14 @@ My research centers on event-based vision and computational imaging, with a focu
   </div>
   <div class='paper-box-text' markdown="1">
 
-
 [UniINR: Unifying Spatial-Temporal INR for RS Video Correction, Deblur, and Interpolation with an Event Camera](https://arxiv.org/pdf/2305.15078) 
 
 Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
 💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
+
+<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 </div>
 </div>
@@ -50,8 +52,13 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='assets/img/authface.png' alt="sym" width="30%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">Under Review</div>
+      <img src='assets/img/authface.png' alt="sym" width="60%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior](https://arxiv.org/pdf/2404.00834) 
 
@@ -62,8 +69,13 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='assets/img/11-egrsvfi.png' alt="sym" width="30%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">Under Review</div>
+      <img src='assets/img/11-egrsvfi.png' alt="sym" width="60%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [Self-supervised Learning of Event-guided Video Frame Interpolation for Rolling Shutter Frames](https://arxiv.org/pdf/2306.15507) 
 
@@ -76,20 +88,21 @@ Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='assets/img/14-evlight++.png' alt="sym" width="30%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">Under Review</div>
+      <img src='assets/img/14-evlight++.png' alt="sym" width="60%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [EvLight++: Low-Light Video Enhancement with an Event Camera: A Large-Scale Real-World Dataset, Novel Method, and More](https://arxiv.org/abs/2408.16254) 
 
 Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
-
-
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
-
-
 
 
 ---
