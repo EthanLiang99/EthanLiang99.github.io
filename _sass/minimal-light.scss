@@ -740,70 +740,25 @@ screen and (max-width: 480px) {
   font-family: monospace;
 }
 
-.paper-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
-
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
-    }
-
-
+.image-badge-container {
+  position: relative;
+  display: inline-block; /* Makes the container wrap the image width */
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
+.image-badge-container .badge { /* Targeting badge specifically within this container */
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  background-color: rgba(80, 80, 150, 0.9); /* Example color, adjust as needed */
+  color: white;
+  padding: 4px 8px; /* Adjust as needed */
+  font-size: 12px; /* Adjust as needed */
+  font-family: sans-serif; /* Or your preferred font */
+  border-radius: 3px;
+  z-index: 1; /* Ensures it's on top */
 }
 
-.badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
-    color: white;
-    background-color: #00369f;
-    font-size: .8em;
+.image-badge-container img {
+  display: block; /* Removes potential extra space below the image */
+  /* width: 100%; if you remove the inline width="30%" and want it to fill the container */
 }
