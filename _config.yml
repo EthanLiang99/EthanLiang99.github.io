@@ -27,10 +27,10 @@ github_link: https://github.com/EthanLiang99
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
-avatar: ./assets/img/avatar.jpeg
+avatar: ./assets/img/guoqiang_liang.jpg
 # logo: ./assets/img/logo.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+favicon: ./assets/img/guoqiang_liang.jpg
+favicon_dark: ./assets/img/guoqiang_liang.jpg
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
