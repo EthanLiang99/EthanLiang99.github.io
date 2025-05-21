@@ -740,25 +740,115 @@ screen and (max-width: 480px) {
   font-family: monospace;
 }
 
-.image-badge-container {
-  position: relative;
-  display: inline-block; /* Makes the container wrap the image width */
+.publication-item {
+  display: flex;
+  align-items: flex-start; /* 顶部对齐 */
+  gap: 20px; /* 两栏间距 */
+  margin-bottom: 30px; /* 条目间距 */
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
 }
 
-.image-badge-container .badge { /* Targeting badge specifically within this container */
-  position: absolute;
-  top: 10px; /* Adjust as needed */
-  left: 10px; /* Adjust as needed */
-  background-color: rgba(80, 80, 150, 0.9); /* Example color, adjust as needed */
-  color: white;
-  padding: 4px 8px; /* Adjust as needed */
-  font-size: 12px; /* Adjust as needed */
-  font-family: sans-serif; /* Or your preferred font */
-  border-radius: 3px;
-  z-index: 1; /* Ensures it's on top */
+.column-left {
+  flex: 0 0 35%; /* 左栏宽度，例如占父容器的35%。可根据图片实际尺寸调整 */
+  max-width: 35%; /* 确保不会超过此宽度 */
+  /* 如果左栏内容本身有固定宽高比，可以只设置 flex-basis 或 width */
+}
+
+.column-right {
+  flex: 1 1 65%; /* 右栏占据剩余空间 */
+}
+
+/* 右栏文字内容的样式 */
+.column-right h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.column-right .authors {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.column-right .keywords {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.column-right .keywords strong {
+  color: #444;
+}
+
+.column-right .links a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 8px;
+  font-size: 0.9em;
+}
+
+.column-right .links a:hover {
+  text-decoration: underline;
+}
+
+
+.image-badge-container {
+  position: relative; /* 作为徽章定位的基准 */
+  width: 100%;       /* 宽度充满其父容器 (.column-left) */
+  display: block;    /* 确保其表现为块级元素 */
 }
 
 .image-badge-container img {
-  display: block; /* Removes potential extra space below the image */
-  /* width: 100%; if you remove the inline width="30%" and want it to fill the container */
+  display: block;    /* 消除图片下方的额外空白 */
+  width: 100%;       /* 图片宽度充满 .image-badge-container */
+  height: auto;      /* 保持图片原始宽高比 */
+  border-radius: 4px;/* 可选：为图片添加圆角，与整体风格统一 */
+}
+
+.badge {
+  position: absolute;
+  top: 10px;    /* 徽章距离容器顶部距离，可调整 */
+  left: 10px;   /* 徽章距离容器左侧距离，可调整 */
+  background-color: rgba(60, 80, 150, 0.9); /* 示例颜色 (深蓝色，类似CVPR) */
+  color: white;
+  padding: 5px 10px; /* 内边距 */
+  font-size: 14px;   /* 字体大小，可调整 */
+  font-family: sans-serif;
+  border-radius: 3px; /* 圆角 */
+  z-index: 1;       /* 确保徽章在图片之上 */
+  line-height: 1.2;   /* 可调整行高使文字在徽章内垂直居中更好看 */
+}
+
+
+@media (max-width: 768px) { /* 当屏幕宽度小于等于768px时 */
+  .publication-item {
+    flex-direction: column; /* 两栏垂直堆叠 */
+  }
+
+  .column-left,
+  .column-right {
+    flex-basis: auto; /* 重置flex-basis */
+    width: 100%;    /* 每栏都占据100%宽度 */
+    max-width: 100%;
+  }
+
+  .column-left {
+    margin-bottom: 15px; /* 图片和文字之间的间距 */
+  }
+
+  .badge { /* 可选：在小屏幕上调整徽章大小和位置 */
+    font-size: 12px;
+    padding: 4px 8px;
+    top: 8px;
+    left: 8px;
+  }
+
+  .column-right h3 { /* 可选：调整标题大小 */
+    font-size: 1.2em;
+  }
 }
