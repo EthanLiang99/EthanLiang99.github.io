@@ -21,7 +21,7 @@ My research centers on event-based vision and computational imaging, with a focu
 
 Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
-[**Code**](https://github.com/yunfanLu/UniINR) | [**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
+💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
@@ -34,7 +34,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
 **Guoqiang Liang**, Kanghao Chen, Hangyu Li, Yunfan LU, Lin Wang
 
-[**Code**](https://github.com/EthanLiang99/EvLight) | [**Dataset**](https://hkustgz-my.sharepoint.com/:f:/g/personal/gliang041_connect_hkust-gz_edu_cn/Ep_8Acz6cd1GjwtmEjAG0w8BkQsBWDjyHf9_56XSLTNLSw)
+💻[**Code**](https://github.com/EthanLiang99/EvLight) | 💿[**Dataset**](https://hkustgz-my.sharepoint.com/:f:/g/personal/gliang041_connect_hkust-gz_edu_cn/Ep_8Acz6cd1GjwtmEjAG0w8BkQsBWDjyHf9_56XSLTNLSw)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
@@ -59,7 +59,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
 Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 
-[**Code**](https://github.com/yunfanLu/Self-EvRSVFI) 
+💻[**Code**](https://github.com/yunfanLu/Self-EvRSVFI) 
 
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
@@ -80,7 +80,7 @@ Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
 </div>
 
 
----
+
 
 ---
 
