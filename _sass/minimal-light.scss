@@ -842,10 +842,10 @@ screen and (max-width: 480px) {
   }
 
   .badge { /* 可选：在小屏幕上调整徽章大小和位置 */
-    font-size: 12px;
+    font-size: 20px;
     padding: 4px 8px;
-    top: 8px;
-    left: 8px;
+    top: 12px;
+    left: 12px;
   }
 
   .column-right h3 { /* 可选：调整标题大小 */
