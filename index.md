@@ -6,7 +6,7 @@ layout: homepage
 
 I am currently a research associate at <a href="https://www.mmlab-ntu.com/" target="_blank">MMLab@NTU</a>, Nanyang Technological University, Singapore, advised by Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
 
-Before that, I earned my MPhil degree in 2024 under the supervision of Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=SReb2csAAAAJ" target="_blank">Lin Wang</a> at The Hong Kong University of Science and Technology, Guangzhou campus. I completed my bachelor's degree at the Harbin Institute of Technology (Shenzhen) in 2022.
+Before that, I earned my MPhil degree in 2024 under the supervision of Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=SReb2csAAAAJ" target="_blank">Lin Wang</a> at The Hong Kong University of Science and Technology. I completed my bachelor's degree at the Harbin Institute of Technology (Shenzhen) in 2022.
 
 My research centers on event-based vision and computational imaging, with a focus on challenges, e.g., HDR, low-light enhancement, deblurring, frame interpolation, rolling shutter correction, and super-resolution. 
 
