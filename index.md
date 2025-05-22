@@ -35,7 +35,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">CVPR 2024 Oral</div>
-      <img src='assets/img/4-cvpr24-lowlight.png' alt="sym" width="70%">
+      <img src='assets/img/evlight.png' alt="sym" width="70%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
