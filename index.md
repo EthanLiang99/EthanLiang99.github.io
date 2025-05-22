@@ -106,12 +106,14 @@ Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
 ---
 
 ## Internships and Working Experiences
-- **[Feb. 2022 ‑ Aug. 2022]**, Shenzhen, APPLE
-  - MDE Intern of iPhone Housing Team @ IPEG, FOXCONN (iPhone 14/14pro project)
-- **[Jan. 2024 ‑ May. 2024]**, Hangzhou, VIVO
-  - Working with Dr. <a href="https://fqnchina.github.io" target="_blank">Qingnan Fan</a>
+- **[Dec. 2024 ‑ Aug. 2024]**, Singapore, MMLab, NTU
+  - Working with Dr. <a href="https://shangchenzhou.com" target="_blank">Shangchen Zhou</a> and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
 - **[Jun. 2024 ‑ Oct. 2024]**, Shenzhen, OPPO
   - Working with Dr. <a href="https://scholar.google.com.sg/citations?user=REWxLZsAAAAJ&hl" target="_blank">Jie Liang</a> and Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a>
+- **[Jan. 2024 ‑ May. 2024]**, Hangzhou, VIVO
+  - Working with Dr. <a href="https://fqnchina.github.io" target="_blank">Qingnan Fan</a>
+- **[Feb. 2022 ‑ Aug. 2022]**, Shenzhen, APPLE
+  - MDE Intern of iPhone Housing Team @ IPEG, FOXCONN (iPhone 14/14pro project)
 
 ---
 
