@@ -817,7 +817,7 @@ screen and (max-width: 480px) {
   background-color: rgba(60, 80, 150, 0.9); /* 示例颜色 (深蓝色，类似CVPR) */
   color: white;
   padding: 5px 10px; /* 内边距 */
-  font-size: 14px;   /* 字体大小，可调整 */
+  font-size: 20px;   /* 字体大小，可调整 */
   font-family: sans-serif;
   border-radius: 3px; /* 圆角 */
   z-index: 1;       /* 确保徽章在图片之上 */
@@ -844,8 +844,8 @@ screen and (max-width: 480px) {
   .badge { /* 可选：在小屏幕上调整徽章大小和位置 */
     font-size: 20px;
     padding: 4px 8px;
-    top: 12px;
-    left: 12px;
+    top: 10px;
+    left: 10px;
   }
 
   .column-right h3 { /* 可选：调整标题大小 */
