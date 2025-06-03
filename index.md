@@ -14,23 +14,6 @@ My research centers on event-based vision and computational imaging, with a focu
 
 ## 🗒 Publications 
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="image-badge-container"> <div class="badge">ECCV 2024</div>
-      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="70%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-[UniINR: Unifying Spatial-Temporal INR for RS Video Correction, Deblur, and Interpolation with an Event Camera](https://arxiv.org/pdf/2305.15078) 
-
-Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
-
-💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
-<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-</div>
-</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -44,7 +27,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
 **Guoqiang Liang**, Kanghao Chen, Hangyu Li, Yunfan LU, Lin Wang
 
-💻[**Code**](https://github.com/EthanLiang99/EvLight) | 💿[**Dataset**](https://hkustgz-my.sharepoint.com/:f:/g/personal/gliang041_connect_hkust-gz_edu_cn/Ep_8Acz6cd1GjwtmEjAG0w8BkQsBWDjyHf9_56XSLTNLSw)
+💻[**Code**](https://github.com/EthanLiang99/EvLight) | 💿[**Dataset**](https://hkustgz-my.sharepoint.com/:f:/g/personal/gliang041_connect_hkust-gz_edu_cn/Ep_8Acz6cd1GjwtmEjAG0w8BkQsBWDjyHf9_56XSLTNLSw) | 🛜 [**Project Page**](https://vlislab22.github.io/eg-lowlight/)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
@@ -64,6 +47,24 @@ Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 
 💻[**Code**](https://github.com/yunfanLu/Self-EvRSVFI) 
 
+<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">ECCV 2024</div>
+      <img src='assets/img/0-eccv24-uniinr.png' alt="sym" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[UniINR: Unifying Spatial-Temporal INR for RS Video Correction, Deblur, and Interpolation with an Event Camera](https://arxiv.org/pdf/2305.15078) 
+
+Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
+
+💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
