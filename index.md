@@ -14,6 +14,22 @@ My research centers on event-based vision and computational imaging, with a focu
 
 ## 🗒 Publications 
 
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">ACM MM 2025</div>
+      <img src='assets/img/authface.png' alt="sym" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior](https://arxiv.org/pdf/2410.09864) 
+
+**Guoqiang Liang**, Qingnan Fan, Bingtao Fu, Jinwei Chen, Hong Gu, Lin Wang
+
+<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+</div>
+</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
@@ -70,22 +86,6 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 </div>
 </div>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/authface.png' alt="sym" width="70%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-[AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior](https://arxiv.org/pdf/2410.09864) 
-
-**Guoqiang Liang**, Qingnan Fan, Bingtao Fu, Jinwei Chen, Hong Gu, Lin Wang
-
-<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-</div>
-</div>
 
 <div class='paper-box'>
   <div class='paper-box-image'>
