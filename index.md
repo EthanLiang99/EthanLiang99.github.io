@@ -108,7 +108,7 @@ Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
 
 ## Internships and Working Experiences
 - **[Dec. 2024 ‑ Aug. 2024]**, Singapore, MMLab, NTU
-  - Working with Dr. <a href="https://shangchenzhou.com" target="_blank">Shangchen Zhou</a> and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
+  - Working with Dr. <a href="https://iceclear.github.io" target="_blank">Jianyi Wang</a>, Prof. <a href="https://shangchenzhou.com" target="_blank">Shangchen Zhou</a>, and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
 - **[Jun. 2024 ‑ Oct. 2024]**, Shenzhen, OPPO
   - Working with Dr. <a href="https://scholar.google.com.sg/citations?user=REWxLZsAAAAJ&hl" target="_blank">Jie Liang</a> and Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a>
 - **[Jan. 2024 ‑ May. 2024]**, Hangzhou, VIVO
