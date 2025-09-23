@@ -60,7 +60,7 @@ My research centers on event-based vision and computational imaging, with a focu
 
 [EvLight++: Low-Light Video Enhancement with an Event Camera: A Large-Scale Real-World Dataset, Novel Method, and More](https://arxiv.org/abs/2408.16254) 
 
-Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
+Kanghao Chen, **Guoqiang Liang (co-first)**, Yunfan Lu, Hangyu Li, Lin Wang.
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
