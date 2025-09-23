@@ -49,6 +49,23 @@ My research centers on event-based vision and computational imaging, with a focu
 </div>
 </div>
 
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">IEEE TPAMI</div>
+      <img src='assets/img/14-evlight++.png' alt="sym" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[EvLight++: Low-Light Video Enhancement with an Event Camera: A Large-Scale Real-World Dataset, Novel Method, and More](https://arxiv.org/abs/2408.16254) 
+
+Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
+<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+</div>
+</div>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">IEEE TVCG</div>
@@ -87,21 +104,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 </div>
 
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div class="image-badge-container"> <div class="badge">Under Review</div>
-      <img src='assets/img/14-evlight++.png' alt="sym" width="70%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
 
-[EvLight++: Low-Light Video Enhancement with an Event Camera: A Large-Scale Real-World Dataset, Novel Method, and More](https://arxiv.org/abs/2408.16254) 
-
-Kanghao Chen, **Guoqiang Liang (co-first)**, Hangyu Li, Yunfan Lu, Lin Wang.
-<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
-<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-</div>
-</div>
 
 
 ---
