@@ -12,6 +12,16 @@ My research centers on event-based vision and computational imaging, with a focu
 
 ---
 
+## 📣 News
+  - **[Sep. 2025]** 🎉 Our paper "Evlight++: Low-light video enhancement with an event camera: A large-scale real-world dataset, novel method, and more" has been accepted to **IEEE TPAMI**!
+  - **[Aug. 2025]** 🎉 Our paper "AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior" has been accepted to **ACM MM 2025**!
+  - **[May  2025]** 🎉 Our paper "Self-supervised learning of event-guided video frame interpolation for rolling shutter frames" has been accepted to **IEEE TVCG**!
+  - **[Dec. 2024]** 🚀 Started as a Research Associate at MMLab@NTU, Singapore.
+  - **[Jul. 2024]** 🎉 Our work "UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation" was accepted by **ECCV 2024**.
+  - **[Apr. 2024]** 🎉 Our work "Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach" was accepted by **CVPR 2024** for an **Oral (.78%)** presentation.
+---
+
+
 ## 🗒 Publications 
 
 <div class='paper-box'>
@@ -110,7 +120,7 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 ---
 
 ## Internships and Working Experiences
-- **[Dec. 2024 ‑ Aug. 2024]**, Singapore, MMLab, NTU
+- **[Dec. 2024 ‑ Dec. 2025]**, Singapore, MMLab, NTU
   - Working with Dr. <a href="https://iceclear.github.io" target="_blank">Jianyi Wang</a>, Prof. <a href="https://shangchenzhou.com" target="_blank">Shangchen Zhou</a>, and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
 - **[Jun. 2024 ‑ Oct. 2024]**, Shenzhen, OPPO
   - Working with Dr. <a href="https://scholar.google.com.sg/citations?user=REWxLZsAAAAJ&hl" target="_blank">Jie Liang</a> and Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a>
