@@ -4,11 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am currently a research associate at <a href="https://www.mmlab-ntu.com/" target="_blank">MMLab@NTU</a>, Nanyang Technological University, Singapore, advised by Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
+I am currently a PhD student at <a href="https://sites.google.com/view/showlab" target="_blank">Show@NUS</a>, National University of Singapore, advised by Prof. <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl" target="_blank">Mike Z. SHOU</a>.
 
-Before that, I earned my MPhil degree in 2024 under the supervision of Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=SReb2csAAAAJ" target="_blank">Lin Wang</a> at The Hong Kong University of Science and Technology. I completed my bachelor's degree at the Harbin Institute of Technology (Shenzhen) in 2022.
+Before that, I was currently a research associate at <a href="https://www.mmlab-ntu.com/" target="_blank">MMLab@NTU</a>, Nanyang Technological University, Singapore, advised by Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>. I earned my MPhil degree in 2024 under the supervision of Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=SReb2csAAAAJ" target="_blank">Lin Wang</a> at The Hong Kong University of Science and Technology. I completed my bachelor's degree at the Harbin Institute of Technology (Shenzhen) in 2022.
 
-My research centers on event-based vision and computational imaging, with a focus on challenges, e.g., HDR, low-light enhancement, deblurring, frame interpolation, rolling shutter correction, and super-resolution. 
+My previous research centers on event-based vision and computational imaging, with a focus on challenges, e.g., HDR, low-light enhancement, deblurring, frame interpolation, rolling shutter correction, and super-resolution. 
 
 ---
 
@@ -114,9 +114,6 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
-
-
-
 
 
 ---
