@@ -28,6 +28,45 @@ My previous research centers on event-based vision and computational imaging, wi
 
 ## 🗒 Publications 
 
+## 🧩 Selected Works
+<div class="work-grid">
+  <a class="work-card" href="https://arxiv.org/pdf/2410.09864" target="_blank" rel="noopener">
+    <img src="assets/img/authface.png" alt="AuthFace">
+    <div class="work-meta">
+      <div class="work-title">AuthFace</div>
+      <div class="work-subtitle">ACM MM 2025</div>
+    </div>
+  </a>
+  <a class="work-card" href="https://arxiv.org/pdf/2404.00834" target="_blank" rel="noopener">
+    <img src="assets/img/evlight.png" alt="EvLight">
+    <div class="work-meta">
+      <div class="work-title">EvLight</div>
+      <div class="work-subtitle">CVPR 2024 Oral</div>
+    </div>
+  </a>
+  <a class="work-card" href="https://arxiv.org/abs/2408.16254" target="_blank" rel="noopener">
+    <img src="assets/img/14-evlight++.png" alt="EvLight++">
+    <div class="work-meta">
+      <div class="work-title">EvLight++</div>
+      <div class="work-subtitle">IEEE TPAMI</div>
+    </div>
+  </a>
+  <a class="work-card" href="https://arxiv.org/pdf/2306.15507" target="_blank" rel="noopener">
+    <img src="assets/img/11-egrsvfi.png" alt="EVRSVFI">
+    <div class="work-meta">
+      <div class="work-title">EvRSVFI</div>
+      <div class="work-subtitle">IEEE TVCG</div>
+    </div>
+  </a>
+  <a class="work-card" href="https://arxiv.org/pdf/2305.15078" target="_blank" rel="noopener">
+    <img src="assets/img/0-eccv24-uniinr.png" alt="UniINR">
+    <div class="work-meta">
+      <div class="work-title">UniINR</div>
+      <div class="work-subtitle">ECCV 2024</div>
+    </div>
+  </a>
+</div>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">ACM MM 2025</div>
