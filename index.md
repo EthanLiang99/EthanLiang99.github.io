@@ -13,13 +13,15 @@ My previous research centers on event-based vision and computational imaging, wi
 ---
 
 ## 📣 News
-  - **[Sep. 2025]** 🎉 Our paper "Evlight++: Low-light video enhancement with an event camera: A large-scale real-world dataset, novel method, and more" has been accepted to **IEEE TPAMI**!
-  - **[Sep. 2025]** 🎉 Our paper "Event-Guided Consistent Video Enhancement with Modality-Adaptive Diffusion Pipeline" has been accepted to **NeurIPS 2025**!
-  - **[Aug. 2025]** 🎉 Our paper "AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior" has been accepted to **ACM MM 2025**!
-  - **[May  2025]** 🎉 Our paper "Self-supervised learning of event-guided video frame interpolation for rolling shutter frames" has been accepted to **IEEE TVCG**!
-  - **[Dec. 2024]** 🚀 Started as a Research Associate at MMLab@NTU, Singapore.
-  - **[Jul. 2024]** 🎉 Our work "UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation" was accepted by **ECCV 2024**.
-  - **[Apr. 2024]** 🎉 Our work "Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach" was accepted by **CVPR 2024** for an **Oral (.78%)** presentation.
+<ul class="news-list">
+  <li><strong>[Sep. 2025]</strong> 🎉 Our paper "Evlight++: Low-light video enhancement with an event camera: A large-scale real-world dataset, novel method, and more" has been accepted to <strong>IEEE TPAMI</strong>!</li>
+  <li><strong>[Sep. 2025]</strong> 🎉 Our paper "Event-Guided Consistent Video Enhancement with Modality-Adaptive Diffusion Pipeline" has been accepted to <strong>NeurIPS 2025</strong>!</li>
+  <li><strong>[Aug. 2025]</strong> 🎉 Our paper "AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior" has been accepted to <strong>ACM MM 2025</strong>!</li>
+  <li><strong>[May  2025]</strong> 🎉 Our paper "Self-supervised learning of event-guided video frame interpolation for rolling shutter frames" has been accepted to <strong>IEEE TVCG</strong>!</li>
+  <li><strong>[Dec. 2024]</strong> 🚀 Started as a Research Associate at MMLab@NTU, Singapore.</li>
+  <li><strong>[Jul. 2024]</strong> 🎉 Our work "UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation" was accepted by <strong>ECCV 2024</strong>.</li>
+  <li><strong>[Apr. 2024]</strong> 🎉 Our work "Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach" was accepted by <strong>CVPR 2024</strong> for an <strong>Oral (.78%)</strong> presentation.</li>
+</ul>
     
 ---
 

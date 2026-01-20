@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
+:root {
+  --bg: #f7f7f9;
+  --surface: #ffffff;
+  --surface-muted: #fbfbfd;
+  --text-primary: #1e1e1e;
+  --text-secondary: #595959;
+  --border: #e7e7ee;
+  --shadow: 0 12px 30px rgba(20, 20, 40, 0.08);
+  --shadow-soft: 0 6px 18px rgba(20, 20, 40, 0.06);
+  --accent: #5f2a8c;
+  --accent-strong: #3c1565;
+}
+
 body {
-  background-color: #fff;
+  background-color: var(--bg);
   padding: 0px;
-  font: 16.0px/1.5 Crimson Pro, serif;
-  color: #595959;
+  font: 16.0px/1.6 Crimson Pro, serif;
+  color: var(--text-secondary);
   font-weight: 400;
-  margin: 0
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .pub-row {
@@ -20,16 +35,20 @@ a.no-color {
 }
 
 .social-icons a {
-  display: inline-block;
-  height: 2.4rem;
-  width: 2.4rem;
-  background-color: transparent;
-  color: #57068c !important;
-  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.6rem;
+  width: 2.6rem;
+  background-color: var(--surface);
+  color: var(--accent) !important;
+  border-radius: 999px;
   text-align: center;
-  font-size: 1.15rem;
-  line-height: 0rem;
-  margin-right: 1rem
+  font-size: 1.1rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+  margin-right: 0.6rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,9 +62,10 @@ a.no-color {
 }
 
 .social-icons a:hover {
-  background-color: transparent;
-  color: transparent;
-  transform: scale(1.3)
+  color: var(--accent-strong);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+  border-color: rgba(95, 42, 140, 0.35);
 }
 
 /*
@@ -70,9 +90,9 @@ a.no-color {
   }
 
   .social-icons a:hover {
-    background-color: transparent;
-    color: black;
-    transform: scale(1.2)
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.35);
+    transform: translateY(-2px);
   }
 
   /*
@@ -221,8 +241,8 @@ papertitle {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #404040;
-    color: #eee6f3;
+    background-color: #1f2026;
+    color: #e6e6ef;
   }
 
   autocolor {
@@ -239,6 +259,20 @@ papertitle {
 
   papertitle {
     color: #eeeff0;
+  }
+
+  header,
+  .paper-box,
+  .news-list li {
+    background: #262730;
+    border-color: #343543;
+    box-shadow: none;
+  }
+
+  .paper-box-image img,
+  .image-badge-container img {
+    border-color: #343543;
+    box-shadow: none;
   }
 
 }
@@ -277,12 +311,13 @@ papertitle {
 }
 
 .image.avatar img {
-  border-radius: 20%;
-  width: 90%;
-  padding: 50px;
-  border: 2px solid #ddd;
-  padding: 8px;
-  box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
+  border-radius: 18%;
+  width: 170px;
+  max-width: 100%;
+  padding: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
 }
 
 .image.logo img {
@@ -337,10 +372,13 @@ h1 {
 }
 
 h2 {
-  color: #000000;
-  font-weight: 500;
-  margin: 2px 0px 15px;
-  font-size: 157%;
+  color: var(--text-primary);
+  font-weight: 600;
+  margin: 6px 0px 16px;
+  font-size: 1.35rem;
+  letter-spacing: 0.2px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -394,12 +432,12 @@ h1 {
 }
 
 a {
-  color: #702b9d;
+  color: var(--accent);
   text-decoration: none;
 }
 
 a:hover {
-  color: #330662;
+  color: var(--accent-strong);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -420,8 +458,9 @@ a:hover small {
 }
 
 .wrapper {
-  width: 960px;
+  width: 1100px;
   margin: 0 auto;
+  padding: 0 24px 40px;
 }
 
 blockquote {
@@ -482,12 +521,17 @@ img {
 }
 
 header {
-  width: 232px;
+  width: 260px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased;
-  padding-top: 4.0em;
-  text-align: center
+  padding: 2.8em 1.4em 2.0em;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  box-sizing: border-box;
 }
 
 
@@ -558,7 +602,7 @@ header ul a strong {
 }
 
 section {
-  width: 650px;
+  width: 760px;
   float: right;
   padding-top: 4.0em;
   padding-bottom: 50px;
@@ -607,7 +651,8 @@ screen and (max-width: 960px) {
   }
 
   header {
-    padding-right: 320px;
+    padding-right: 0;
+    margin-bottom: 24px;
   }
 
   section {
@@ -740,6 +785,97 @@ screen and (max-width: 480px) {
   font-family: monospace;
 }
 
+.news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 26px;
+}
+
+.news-list li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin: 10px 0;
+  box-shadow: var(--shadow-soft);
+  line-height: 1.5;
+}
+
+.news-list li strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.paper-box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  margin: 18px 0;
+}
+
+.paper-box-image {
+  flex: 0 0 220px;
+}
+
+.paper-box-image img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+}
+
+.paper-box-text {
+  flex: 1;
+}
+
+.paper-box-text > p {
+  margin: 6px 0;
+}
+
+.paper-box-text > p:first-child > a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.paper-box-text > p:first-child > a:hover {
+  color: var(--accent-strong);
+}
+
+.paper-box-text p:last-child a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-muted);
+  color: var(--accent);
+}
+
+.paper-box-text p:last-child a:hover {
+  background: var(--surface);
+  border-color: rgba(95, 42, 140, 0.35);
+  color: var(--accent-strong);
+}
+
+@media screen and (max-width: 960px) {
+  .paper-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .paper-box-image {
+    width: 100%;
+  }
+}
+
 .publication-item {
   display: flex;
   align-items: flex-start; /* 顶部对齐 */
@@ -807,21 +943,25 @@ screen and (max-width: 480px) {
   display: block;    /* 消除图片下方的额外空白 */
   width: 100%;       /* 图片宽度充满 .image-badge-container */
   height: auto;      /* 保持图片原始宽高比 */
-  border-radius: 4px;/* 可选：为图片添加圆角，与整体风格统一 */
+  border-radius: 10px;/* 可选：为图片添加圆角，与整体风格统一 */
+  box-shadow: var(--shadow-soft);
 }
 
 .badge {
   position: absolute;
   top: 10px;    /* 徽章距离容器顶部距离，可调整 */
   left: 10px;   /* 徽章距离容器左侧距离，可调整 */
-  background-color: rgba(60, 80, 150, 0.9); /* 示例颜色 (深蓝色，类似CVPR) */
+  background-color: rgba(60, 80, 150, 0.92); /* 示例颜色 (深蓝色，类似CVPR) */
   color: white;
-  padding: 5px 10px; /* 内边距 */
-  font-size: 35px;   /* 字体大小，可调整 */
-  font-family: sans-serif;
-  border-radius: 3px; /* 圆角 */
+  padding: 6px 10px; /* 内边距 */
+  font-size: 0.75rem;   /* 字体大小，可调整 */
+  font-family: "Ubuntu Mono", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-radius: 999px; /* 圆角 */
   z-index: 1;       /* 确保徽章在图片之上 */
   line-height: 1.2;   /* 可调整行高使文字在徽章内垂直居中更好看 */
+  box-shadow: var(--shadow-soft);
 }
 
 
