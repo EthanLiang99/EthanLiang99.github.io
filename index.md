@@ -8,12 +8,15 @@ I am currently a PhD student at <a href="https://sites.google.com/view/showlab" 
 
 Before that, I was a research associate at <a href="https://www.mmlab-ntu.com/" target="_blank">MMLab@NTU</a>, Nanyang Technological University, Singapore, advised by Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>. I earned my MPhil degree in 2024 under the supervision of Prof. <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=SReb2csAAAAJ" target="_blank">Lin Wang</a> at The Hong Kong University of Science and Technology. I completed my bachelor's degree at the Harbin Institute of Technology (Shenzhen) in 2022.
 
-My previous research centers on event-based vision and computational imaging, with a focus on challenges, e.g., HDR, low-light enhancement, deblurring, frame interpolation, rolling shutter correction, and super-resolution. 
+My current research focuses on **visual generation** and **embodied AI** — building models that can perceive, evaluate, and act in the physical world. My earlier work centers on event-based vision and computational imaging, with a focus on challenges such as HDR, low-light enhancement, deblurring, frame interpolation, rolling shutter correction, and super-resolution.
 
 ---
 
 ## 📣 News
 <ul class="news-list">
+  <li><strong>[Sep. 2026]</strong> 🎉 Our paper "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models" has been accepted to <strong>CoRL 2026</strong>!</li>
+  <li><strong>[Jun. 2026]</strong> 🎉 Our paper "Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning" has been accepted to <strong>ECCV 2026</strong>!</li>
+  <li><strong>[Jan. 2026]</strong> 🚀 Started my PhD at Show Lab, National University of Singapore.</li>
   <li><strong>[Sep. 2025]</strong> 🎉 Our paper "Evlight++: Low-light video enhancement with an event camera: A large-scale real-world dataset, novel method, and more" has been accepted to <strong>IEEE TPAMI</strong>!</li>
   <li><strong>[Sep. 2025]</strong> 🎉 Our paper "Event-Guided Consistent Video Enhancement with Modality-Adaptive Diffusion Pipeline" has been accepted to <strong>NeurIPS 2025</strong>!</li>
   <li><strong>[Aug. 2025]</strong> 🎉 Our paper "AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior" has been accepted to <strong>ACM MM 2025</strong>!</li>
@@ -22,14 +25,25 @@ My previous research centers on event-based vision and computational imaging, wi
   <li><strong>[Jul. 2024]</strong> 🎉 Our work "UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation" was accepted by <strong>ECCV 2024</strong>.</li>
   <li><strong>[Apr. 2024]</strong> 🎉 Our work "Towards Robust Event-guided Low-Light Image Enhancement: A Large-Scale Real-World Event-Image Dataset and Novel Approach" was accepted by <strong>CVPR 2024</strong> for an <strong>Oral (.78%)</strong> presentation.</li>
 </ul>
-    
+
 ---
-
-
-## 🗒 Publications 
 
 ## 🧩 Selected Works
 <div class="work-grid">
+  <a class="work-card" href="https://github.com/EthanLiang99/MetaWAM" target="_blank" rel="noopener">
+    <img src="assets/img/metawam.png" alt="MetaWAM">
+    <div class="work-meta">
+      <div class="work-title">MetaWAM</div>
+      <div class="work-subtitle">CoRL 2026</div>
+    </div>
+  </a>
+  <a class="work-card" href="https://ethanliang99.github.io/ZOOMIQA-Projectpage" target="_blank" rel="noopener">
+    <img src="assets/img/zoomiqa.png" alt="Zoom-IQA">
+    <div class="work-meta">
+      <div class="work-title">Zoom-IQA</div>
+      <div class="work-subtitle">ECCV 2026</div>
+    </div>
+  </a>
   <a class="work-card" href="https://arxiv.org/pdf/2410.09864" target="_blank" rel="noopener">
     <img src="assets/img/authface.png" alt="AuthFace">
     <div class="work-meta">
@@ -67,6 +81,42 @@ My previous research centers on event-based vision and computational imaging, wi
   </a>
 </div>
 
+---
+
+## 🗒 Publications
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">CoRL 2026</div>
+      <img src='assets/img/metawam.png' alt="MetaWAM" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models](https://github.com/EthanLiang99/MetaWAM)
+
+**Guoqiang Liang**, et al.
+
+[💻 Code](https://github.com/EthanLiang99/MetaWAM)
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">ECCV 2026</div>
+      <img src='assets/img/zoomiqa.png' alt="Zoom-IQA" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning](https://arxiv.org/abs/2601.02918)
+
+**Guoqiang Liang**, Jianyi Wang, Zhonghua Wu, Shangchen Zhou, Chen Change Loy
+
+[🛜 Project Page](https://ethanliang99.github.io/ZOOMIQA-Projectpage) [📄 arXiv](https://arxiv.org/abs/2601.02918)
+</div>
+</div>
+
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div class="image-badge-container"> <div class="badge">ACM MM 2025</div>
@@ -79,7 +129,7 @@ My previous research centers on event-based vision and computational imaging, wi
 
 **Guoqiang Liang**, Qingnan Fan, Bingtao Fu, Jinwei Chen, Hong Gu, Lin Wang
 
-💻[**Code**](https://github.com/EthanLiang99/AuthFace) | 💿[**Dataset**](https://drive.google.com/file/d/16z0TX_Nomq2lDUimBXd5I_YLkeZwLhvL/view)
+[💻 Code](https://github.com/EthanLiang99/AuthFace) [💿 Dataset](https://drive.google.com/file/d/16z0TX_Nomq2lDUimBXd5I_YLkeZwLhvL/view)
 
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
@@ -98,7 +148,7 @@ My previous research centers on event-based vision and computational imaging, wi
 
 **Guoqiang Liang**, Kanghao Chen, Hangyu Li, Yunfan LU, Lin Wang
 
-💻[**Code**](https://github.com/EthanLiang99/EvLight) | 💿[**Dataset**](https://hkustgz-my.sharepoint.com/:f:/g/personal/gliang041_connect_hkust-gz_edu_cn/Ep_8Acz6cd1GjwtmEjAG0w8BkQsBWDjyHf9_56XSLTNLSw) | 🛜 [**Project Page**](https://vlislab22.github.io/eg-lowlight/)
+[💻 Code](https://github.com/EthanLiang99/EvLight) [💿 Dataset](https://hkustgz-my.sharepoint.com/:f:/g/personal/gliang041_connect_hkust-gz_edu_cn/Ep_8Acz6cd1GjwtmEjAG0w8BkQsBWDjyHf9_56XSLTNLSw) [🛜 Project Page](https://vlislab22.github.io/eg-lowlight/)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
@@ -133,7 +183,7 @@ Kanghao Chen, **Guoqiang Liang (co-first)**, Yunfan Lu, Hangyu Li, Lin Wang.
 
 Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 
-💻[**Code**](https://github.com/yunfanLu/Self-EvRSVFI) 
+[💻 Code](https://github.com/yunfanLu/Self-EvRSVFI)
 
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
@@ -152,33 +202,44 @@ Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 
 Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
 
-💻[**Code**](https://github.com/yunfanLu/UniINR) | 📺[**Demo Video**](https://youtu.be/Zfx9jBkSZmg)
+[💻 Code](https://github.com/yunfanLu/UniINR) [📺 Demo Video](https://youtu.be/Zfx9jBkSZmg)
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
 
-
 ---
 
-## Internships and Working Experiences
-- **[Dec. 2024 ‑ Dec. 2025]**, Singapore, MMLab, NTU
-  - Working with Dr. <a href="https://iceclear.github.io" target="_blank">Jianyi Wang</a>, Prof. <a href="https://shangchenzhou.com" target="_blank">Shangchen Zhou</a>, and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.
-- **[Jun. 2024 ‑ Oct. 2024]**, Shenzhen, OPPO
-  - Working with Dr. <a href="https://scholar.google.com.sg/citations?user=REWxLZsAAAAJ&hl" target="_blank">Jie Liang</a> and Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a>
-- **[Jan. 2024 ‑ May. 2024]**, Hangzhou, VIVO
-  - Working with Dr. <a href="https://fqnchina.github.io" target="_blank">Qingnan Fan</a>
-- **[Feb. 2022 ‑ Aug. 2022]**, Shenzhen, APPLE
-  - MDE Intern of iPhone Housing Team @ IPEG, FOXCONN (iPhone 14/14pro project)
+## 💼 Internships and Working Experiences
 
----
-
+<ul class="exp-list">
+  <li>
+    <span class="exp-when">Jan. 2026 – Present · Singapore</span>
+    <span class="exp-what">Show Lab, NUS</span>
+    <span class="exp-detail">PhD student, advised by Prof. <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl" target="_blank">Mike Z. SHOU</a>.</span>
+  </li>
+  <li>
+    <span class="exp-when">Dec. 2024 – Dec. 2025 · Singapore</span>
+    <span class="exp-what">MMLab, NTU</span>
+    <span class="exp-detail">Working with Dr. <a href="https://iceclear.github.io" target="_blank">Jianyi Wang</a>, Prof. <a href="https://shangchenzhou.com" target="_blank">Shangchen Zhou</a>, and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>.</span>
+  </li>
+  <li>
+    <span class="exp-when">Jun. 2024 – Oct. 2024 · Shenzhen</span>
+    <span class="exp-what">OPPO</span>
+    <span class="exp-detail">Working with Dr. <a href="https://scholar.google.com.sg/citations?user=REWxLZsAAAAJ&hl" target="_blank">Jie Liang</a> and Prof. <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a>.</span>
+  </li>
+  <li>
+    <span class="exp-when">Jan. 2024 – May. 2024 · Hangzhou</span>
+    <span class="exp-what">VIVO</span>
+    <span class="exp-detail">Working with Dr. <a href="https://fqnchina.github.io" target="_blank">Qingnan Fan</a>.</span>
+  </li>
+  <li>
+    <span class="exp-when">Feb. 2022 – Aug. 2022 · Shenzhen</span>
+    <span class="exp-what">APPLE</span>
+    <span class="exp-detail">MDE Intern of iPhone Housing Team @ IPEG, FOXCONN (iPhone 14/14pro project).</span>
+  </li>
+</ul>
 
 <div style="display:none;">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8vPQe1PMqQ1IVAIWDLbuqh_qj9lj8NmX7ZUVvu0QD7w"></script>
 </div>
-
-
-
-
-
