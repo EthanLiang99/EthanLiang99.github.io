@@ -19,7 +19,7 @@ My current research focuses on **visual generation** and **embodied AI** — bui
   <li><strong>[Jan. 2026]</strong> 🚀 Started my PhD at Show Lab, National University of Singapore.</li>
   <li><strong>[Sep. 2025]</strong> 🎉 Our paper "Evlight++: Low-light video enhancement with an event camera: A large-scale real-world dataset, novel method, and more" has been accepted to <strong>IEEE TPAMI</strong>!</li>
   <li><strong>[Sep. 2025]</strong> 🎉 Our paper "Event-Guided Consistent Video Enhancement with Modality-Adaptive Diffusion Pipeline" has been accepted to <strong>NeurIPS 2025</strong>!</li>
-  <li><strong>[Aug. 2025]</strong> 🎉 Our paper "AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior" has been accepted to <strong>ACM MM 2025</strong>!</li>
+  <li><strong>[Aug. 2025]</strong> 🎉 Our paper "AuthFace: Towards Authentic Blind Face Restoration with Face-oriented Generative Diffusion Prior" has been accepted to <strong>ACM MM 2025</strong> as an <strong>Oral</strong> presentation!</li>
   <li><strong>[May  2025]</strong> 🎉 Our paper "Self-supervised learning of event-guided video frame interpolation for rolling shutter frames" has been accepted to <strong>IEEE TVCG</strong>!</li>
   <li><strong>[Dec. 2024]</strong> 🚀 Started as a Research Associate at MMLab@NTU, Singapore.</li>
   <li><strong>[Jul. 2024]</strong> 🎉 Our work "UniINR: Event-guided Unified Rolling Shutter Correction, Deblurring, and Interpolation" was accepted by <strong>ECCV 2024</strong>.</li>
@@ -48,7 +48,7 @@ My current research focuses on **visual generation** and **embodied AI** — bui
     <img src="assets/img/authface.png" alt="AuthFace">
     <div class="work-meta">
       <div class="work-title">AuthFace</div>
-      <div class="work-subtitle">ACM MM 2025</div>
+      <div class="work-subtitle">ACM MM 2025 Oral</div>
     </div>
   </a>
   <a class="work-card" href="https://arxiv.org/pdf/2404.00834" target="_blank" rel="noopener">
@@ -119,7 +119,7 @@ My current research focuses on **visual generation** and **embodied AI** — bui
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div class="image-badge-container"> <div class="badge">ACM MM 2025</div>
+    <div class="image-badge-container"> <div class="badge">ACM MM 2025 Oral</div>
       <img src='assets/img/authface.png' alt="sym" width="70%">
     </div>
   </div>

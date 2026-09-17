@@ -1,32 +1,36 @@
 // ---------------------------------------------------------------------------
-// Design system — restrained, Apple-inspired.
-// Neutral palette, SF Pro type, hairline separators, frosted-glass surfaces.
+// Design system — restrained, Apple-inspired structure over a cool iridescent
+// palette: steel blue, violet and warm cream washed behind frosted-glass
+// surfaces, with blue-to-violet used sparingly for accents.
 // ---------------------------------------------------------------------------
 
 :root {
-  // Surfaces
-  --bg: #f5f5f7;
+  // Surfaces — translucent so the ambient wash reads through the glass
+  --bg: #fafafc;
   --bg-elevated: #ffffff;
-  --surface: rgba(255, 255, 255, 0.72);
-  --surface-muted: rgba(255, 255, 255, 0.5);
+  --surface: linear-gradient(to bottom right, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.54));
+  --surface-muted: linear-gradient(to bottom right, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.38));
   --surface-solid: rgba(255, 255, 255, 0.92);
 
   // Type
-  --text-primary: #1d1d1f;
-  --text-secondary: #6e6e73;
-  --text-tertiary: #86868b;
+  --text-primary: #171717;
+  --text-secondary: #4b5563;
+  --text-tertiary: #6b7280;
 
   // Lines & depth
-  --separator: rgba(0, 0, 0, 0.08);
-  --separator-strong: rgba(0, 0, 0, 0.14);
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.05), 0 12px 32px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.06), 0 24px 56px rgba(0, 0, 0, 0.08);
+  --separator: rgba(0, 0, 0, 0.07);
+  --separator-strong: rgba(0, 0, 0, 0.13);
+  --card-border: rgba(255, 255, 255, 0.72);
+  --shadow-sm: 0 1px 2px rgba(31, 41, 55, 0.04), 0 4px 12px rgba(31, 41, 55, 0.05);
+  --shadow-md: 0 2px 6px rgba(31, 41, 55, 0.05), 0 12px 32px rgba(31, 41, 55, 0.07);
+  --shadow-lg: 0 4px 12px rgba(31, 41, 55, 0.06), 0 24px 56px rgba(31, 41, 55, 0.09);
 
-  // Accent — used sparingly
-  --accent: #0071e3;
-  --accent-hover: #0077ed;
-  --accent-soft: rgba(0, 113, 227, 0.1);
+  // Accent — blue shifting to violet, used sparingly
+  --accent: #2563eb;
+  --accent-hover: #7c3aed;
+  --accent-2: #9333ea;
+  --accent-soft: rgba(37, 99, 235, 0.09);
+  --accent-gradient: linear-gradient(to right, #2563eb, #9333ea);
 
   // Material
   --blur: saturate(180%) blur(20px);
@@ -52,25 +56,28 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #000000;
-    --bg-elevated: #1d1d1f;
-    --surface: rgba(29, 29, 31, 0.72);
-    --surface-muted: rgba(44, 44, 46, 0.5);
-    --surface-solid: rgba(29, 29, 31, 0.94);
+    --bg: #08080c;
+    --bg-elevated: #17171c;
+    --surface: linear-gradient(to bottom right, rgba(31, 32, 40, 0.74), rgba(23, 23, 28, 0.56));
+    --surface-muted: linear-gradient(to bottom right, rgba(44, 45, 55, 0.6), rgba(31, 32, 40, 0.4));
+    --surface-solid: rgba(23, 23, 28, 0.94);
 
     --text-primary: #f5f5f7;
-    --text-secondary: #a1a1a6;
-    --text-tertiary: #86868b;
+    --text-secondary: #a8adba;
+    --text-tertiary: #8b909c;
 
-    --separator: rgba(255, 255, 255, 0.1);
-    --separator-strong: rgba(255, 255, 255, 0.18);
+    --separator: rgba(255, 255, 255, 0.09);
+    --separator-strong: rgba(255, 255, 255, 0.17);
+    --card-border: rgba(255, 255, 255, 0.1);
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
     --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.45);
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
 
-    --accent: #2997ff;
-    --accent-hover: #4aa9ff;
-    --accent-soft: rgba(41, 151, 255, 0.14);
+    --accent: #60a5fa;
+    --accent-hover: #c084fc;
+    --accent-2: #c084fc;
+    --accent-soft: rgba(96, 165, 250, 0.14);
+    --accent-gradient: linear-gradient(to right, #60a5fa, #c084fc);
   }
 }
 
@@ -97,16 +104,19 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-// A single, very quiet ambient wash — gives the frosted surfaces something to
-// refract without drawing attention to itself.
+// Ambient wash: steel blue drifting from the top right, violet from the bottom
+// left, a warm cream core between them. Heavily blurred so it reads as light
+// rather than as shapes, and so the frosted surfaces have colour to refract.
+// `inset` overscans the viewport so the blur never exposes the gradient edges.
 body::before {
   content: "";
   position: fixed;
-  inset: 0;
+  inset: -140px;
   background:
-    radial-gradient(70% 55% at 12% 0%, rgba(0, 113, 227, 0.07), transparent 70%),
-    radial-gradient(60% 50% at 88% 8%, rgba(120, 130, 150, 0.06), transparent 70%),
-    radial-gradient(70% 60% at 50% 100%, rgba(0, 113, 227, 0.05), transparent 70%);
+    radial-gradient(circle at 100% 0%, rgba(70, 130, 180, 0.38), transparent 70%),
+    radial-gradient(circle at 0% 100%, rgba(147, 112, 219, 0.32), transparent 70%),
+    radial-gradient(circle at 50% 45%, rgba(255, 253, 206, 0.28), transparent 70%);
+  filter: blur(80px);
   pointer-events: none;
   z-index: -1;
 }
@@ -114,9 +124,9 @@ body::before {
 @media (prefers-color-scheme: dark) {
   body::before {
     background:
-      radial-gradient(70% 55% at 12% 0%, rgba(41, 151, 255, 0.1), transparent 70%),
-      radial-gradient(60% 50% at 88% 8%, rgba(120, 130, 160, 0.08), transparent 70%),
-      radial-gradient(70% 60% at 50% 100%, rgba(41, 151, 255, 0.07), transparent 70%);
+      radial-gradient(circle at 100% 0%, rgba(70, 130, 180, 0.34), transparent 70%),
+      radial-gradient(circle at 0% 100%, rgba(147, 112, 219, 0.3), transparent 70%),
+      radial-gradient(circle at 50% 45%, rgba(255, 253, 206, 0.06), transparent 70%);
   }
 }
 
@@ -244,7 +254,7 @@ pre {
   max-width: 100%;
   padding: 16px 18px;
   background: var(--surface);
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius-md);
   overflow-x: auto;
   backdrop-filter: var(--blur);
@@ -340,7 +350,7 @@ header {
   padding: 36px 24px 28px;
   text-align: center;
   background: var(--surface);
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-md);
   backdrop-filter: var(--blur-strong);
@@ -397,7 +407,7 @@ footer {
   max-width: 100%;
   border-radius: 50%;
   padding: 0;
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   box-shadow: var(--shadow-md);
   object-fit: cover;
   aspect-ratio: 1 / 1;
@@ -425,7 +435,7 @@ footer {
   margin: 0 !important;
   border-radius: var(--radius-pill);
   background: var(--surface-muted);
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   color: var(--text-secondary) !important;
   font-size: 17px;
   backdrop-filter: var(--blur);
@@ -450,7 +460,7 @@ footer {
   list-style: none;
   padding: 0;
   margin: 0 0 8px;
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius-lg);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
@@ -502,7 +512,7 @@ footer {
   flex-direction: column;
   overflow: hidden;
   border-radius: var(--radius-lg);
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
   backdrop-filter: var(--blur);
@@ -550,7 +560,7 @@ footer {
   gap: 24px;
   padding: 20px;
   margin: 16px 0;
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius-lg);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
@@ -613,7 +623,7 @@ footer {
   font-weight: 500;
   letter-spacing: -0.008em;
   border-radius: var(--radius-pill);
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   background: var(--surface-muted);
   color: var(--text-secondary);
   backdrop-filter: var(--blur);
@@ -657,12 +667,13 @@ footer {
   line-height: 1.2;
   white-space: nowrap;
   color: #fff;
-  background: rgba(0, 0, 0, 0.42);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  // Kept near-opaque: the badge sits over arbitrary teaser images.
+  background: linear-gradient(to right, rgba(37, 99, 235, 0.94), rgba(147, 51, 234, 0.94));
+  border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: var(--radius-pill);
   backdrop-filter: saturate(180%) blur(14px);
   -webkit-backdrop-filter: saturate(180%) blur(14px);
-  box-shadow: none;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.22);
 }
 
 // ---------------------------------------------------------------------------
@@ -680,7 +691,7 @@ footer {
   padding: 16px 20px;
   margin: 10px 0;
   font-size: 15px;
-  border: 1px solid var(--separator);
+  border: 1px solid var(--card-border);
   border-radius: var(--radius-md);
   background: var(--surface);
   box-shadow: var(--shadow-sm);
