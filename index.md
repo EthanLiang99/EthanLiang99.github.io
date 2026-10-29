@@ -14,6 +14,7 @@ My current research focuses on **visual generation** and **embodied AI** — bui
 
 ## 📣 News
 <ul class="news-list">
+  <li><strong>[Sep. 2026]</strong> 🎉 Two papers have been accepted to <strong>NeurIPS 2026</strong>: "Long Video Instructional Editing in the Wild" (Main Track) and "Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance" (Evaluations &amp; Datasets Track)!</li>
   <li><strong>[Sep. 2026]</strong> 🎉 Our paper "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models" has been accepted to <strong>CoRL 2026</strong>!</li>
   <li><strong>[Jun. 2026]</strong> 🎉 Our paper "Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning" has been accepted to <strong>ECCV 2026</strong>!</li>
   <li><strong>[Jan. 2026]</strong> 🚀 Started my PhD at Show Lab, National University of Singapore.</li>
@@ -187,6 +188,36 @@ Yunfan Lu, **Guoqiang Liang (co-fisrt)**, Lin Wang
 
 <!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">NeurIPS 2026</div>
+      <img src='assets/img/long-video-editing.jpg' alt="Long Video Instructional Editing" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+<span class="paper-title">Long Video Instructional Editing in the Wild</span>
+
+Yiqi Lin, **Guoqiang Liang**, Ziyun Zeng, Zechen Bai, Yanzhe Chen, Mike Zheng Shou
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div class="image-badge-container"> <div class="badge">NeurIPS 2026 E&amp;D</div>
+      <img src='assets/img/sparkle.jpg' alt="Sparkle" width="70%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance](https://arxiv.org/abs/2605.06535)
+
+Ziyun Zeng, Yiqi Lin, **Guoqiang Liang**, Mike Zheng Shou
+
+[🛜 Project Page](https://showlab.github.io/Sparkle/) [📄 arXiv](https://arxiv.org/abs/2605.06535) [💻 Code](https://github.com/showlab/Sparkle) [💿 Dataset](https://huggingface.co/datasets/stdKonjac/Sparkle)
 </div>
 </div>
 
