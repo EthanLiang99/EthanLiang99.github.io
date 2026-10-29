@@ -596,8 +596,9 @@ footer {
   color: var(--text-secondary);
 }
 
-// Title
-.paper-box-text > p:first-child > a {
+// Title (a plain span for papers with no public link yet)
+.paper-box-text > p:first-child > a,
+.paper-box-text > p:first-child > .paper-title {
   display: inline-block;
   font-size: 17px;
   font-weight: 600;
