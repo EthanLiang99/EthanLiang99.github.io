@@ -39,6 +39,10 @@ enable_footnote: false
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
 
+# MapMyVisitors widget ID: the "d=" value in the embed code from https://mapmyvisitors.com
+# The widget loads in a hidden container, so visits are logged but no map is shown.
+mapmyvisitors_id: SLN6ujoa5F86U_ZVcQZAhxfGkAI_HB2lwLZvYjUhwzs
+
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
 remote_theme: yaoyao-liu/minimal-light

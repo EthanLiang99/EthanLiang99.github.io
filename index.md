@@ -270,7 +270,3 @@ Yunfan Lu, **Guoqiang Liang**, Yusheng Wang, Lin Wang, Hui Xiong
     <span class="exp-detail">MDE Intern of iPhone Housing Team @ IPEG, FOXCONN (iPhone 14/14pro project).</span>
   </li>
 </ul>
-
-<div style="display:none;">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=8vPQe1PMqQ1IVAIWDLbuqh_qj9lj8NmX7ZUVvu0QD7w"></script>
-</div>
