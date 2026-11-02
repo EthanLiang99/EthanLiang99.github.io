@@ -146,6 +146,11 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+  {% if site.mapmyvisitors_id %}
+  <div style="display:none;">
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d={{ site.mapmyvisitors_id }}"></script>
+  </div>
+  {% endif %}
 </body>
 
 </html>
